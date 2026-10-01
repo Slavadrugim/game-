@@ -44,3 +44,14 @@ resetBtn.addEventListener('click', function() {
     guessInput.value = '';
     message.textContent = '';
 });
+const music = document.getElementById('bgMusic');
+const musicBtn = document.getElementById('musicBtn');
+musicBtn.addEventListener('click',function(){
+    if (music.paused) {
+        music.play();
+        musicBtn.textContent = 'Выключить музыку';
+    }else {
+        music.pause();
+        musicBtn.textContent = 'Включить музыку';
+    }
+});
