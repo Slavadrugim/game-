@@ -9,6 +9,7 @@ const game = {
 
     checkGuess: function(userGuess) {
         this.attempts++;
+        document.getElementById('tries').textContent = 'Попыток'+this .attempts;
 
         if (userGuess < this.secretNumber) {
             return 'Загаданное число больше!';
