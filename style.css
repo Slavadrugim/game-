@@ -1,4 +1,16 @@
+#message {
+    color: gold;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    margin-top: 15px;
+    min-height: 30px;
+}
+
 #tries {
-  color:gold;
-  font-size:20px;
+    color: gold;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+    margin-top: 10px;
 }
