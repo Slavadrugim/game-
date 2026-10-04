@@ -56,3 +56,6 @@ musicBtn.addEventListener('click',function(){
         musicBtn.textContent = 'Включить музыку';
     }
 });
+const clickSound = new Audio('click.mp3');
+checkBtn.addEventListener('click', () => {clickSound.play()});
+resetBtn.addEventListener('click', () => {clickSound.play()});
