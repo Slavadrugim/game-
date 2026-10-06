@@ -57,5 +57,12 @@ musicBtn.addEventListener('click',function(){
     }
 });
 const clickSound = new Audio('click.mp3');
-checkBtn.addEventListener('click', () => {clickSound.play()});
-resetBtn.addEventListener('click', () => {clickSound.play()});
+checkBtn.addEventListener('click', () => {
+    clickSound.currentTime = 0;
+    clickSound.play();
+});
+
+resetBtn.addEventListener('click', () => {
+    clickSound.currentTime = 0;
+    clickSound.play();
+});
